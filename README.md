@@ -7,7 +7,7 @@ This project uses jwt to authenticate users.<br>
 * In pkg/token are all functions to make and validate jwt tokens.<br>
 * In pkg/handlers are all routes as a logIn and SignUp.<br>
 
-## How does this project work
+### How does this project work
 * We create a post request to log in to the server: <br>
 <br>
 
@@ -17,3 +17,8 @@ This project uses jwt to authenticate users.<br>
 <br>
 
 ![home](https://github.com/francolautaro2/authentication-go/assets/69493845/05f361b2-1762-43d5-806d-04933c4b160c)
+
+<br>
+
+#### When the session expires, the user must log in again to enter the home page.
+
